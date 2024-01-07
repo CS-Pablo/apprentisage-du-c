@@ -12,5 +12,8 @@ int main(void)
 
     printf("%d", nb1 + nb2);
 
+    int niv_player = 0;
+    printf("%dNiveau", niv_player);
+
     return 0;
 }
