@@ -4,8 +4,10 @@ int main(void)
 
 {
     // Déclaration et affectation d'une variable de type INT (entier)
+
     int aireDuCarre = 0;
     int aireDuRectangle = 10;
+
     // Déclaration et affectation d'une variable de type FLOAT  (nombre a virgule)
     float prixDeReservation = 125.99;
     const float PI = 3.14;
@@ -19,7 +21,8 @@ int main(void)
     %s = chaine de caractere (text)
     
     */
-    scanf('')
+    printf("Quelle est l'aire du Carré ?")
+    scanf('%d, &aireDuCarre');
 
     return 0;
 
